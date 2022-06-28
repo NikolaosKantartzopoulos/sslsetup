@@ -17,7 +17,7 @@ WAN 80 Port to LAN 80 Port<br>
 WAN 443 Port to LAN 443 Port<br>
 WAN 4444 Port to LAN 4444 Port<br>
 
-### PC
+### PC Firewall
 **sudo ufw status verbose**
 ```
 Logging: on (low)
@@ -87,3 +87,19 @@ Listen 4444
 
 #### apache2.conf
 Posted as a different file in main directory of repository
+
+
+###Hosts file
+
+As a final not, my /etc/hosts file
+```
+127.0.0.1       localhost
+127.0.1.1       nklan.ddns.net
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+```
