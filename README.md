@@ -1,19 +1,24 @@
-### NOIP - DNS and SSL provider
-*Using https://www.noip.com/*<br>
-- Username: nkantartzopoulos@gmail.com<br>
-- Password: Dung&Dr@g_89<br>
-I have linked my WAN address to nklan.ddns.net<br>
-Because my ISP blocks the 80 port, I use 4444 and redirect it to port 80 using Port 80 redirect option.<br>
+### The Problem
+The server worked realy well using the port 80 redirect mentioned later up until I decided to implement the SSL certificate.<br>
+I created the certificate and successfully added it to my server.<br>
+Got it working at first but I had to explicitly write https://nklan.ddns.net and not nklan.ddns.net to access the site (in that case I had the message that I tried to access an https site over an http connection).<br>
+After changing some things (the followng settings) I got it working but only at the server PC. I can not even access it from another device in my LAN, not to mention over the Internet.<br>
 
+### NOIP - DNS and SSL provider
+**Using https://www.noip.com/**<br><br>
+- Username: nkantartzopoulos@gmail.com<br>
+- Password: Dung&Dr@g_89<br><br>
+I have linked my WAN address to nklan.ddns.net<br>
+Because my ISP blocks the 80 port, I use 4444 and redirect it to port 80 using /Port 80 redirect option/.<br>
 
 ### Router
-*Forward the folowing ports to my PC* (Static IP 192.168.1.5)<br>
+**Forward the folowing ports to my PC** (Static IP 192.168.1.5)<br>
 WAN 80 Port to LAN 80 Port<br>
 WAN 443 Port to LAN 443 Port<br>
 WAN 4444 Port to LAN 4444 Port<br>
 
 ### PC
-*sudo ufw status verbose*
+**sudo ufw status verbose**
 ```
 Logging: on (low)
 Default: deny (incoming), allow (outgoing), disabled (routed)
