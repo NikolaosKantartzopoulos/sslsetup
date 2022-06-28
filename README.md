@@ -1,5 +1,5 @@
 ### The Problem
-The server worked realy well using the port 80 redirect mentioned later up until I decided to implement the SSL certificate.<br>
+The server worked really well using the port 80 redirect mentioned later up until I decided to implement the SSL certificate.<br>
 I created the certificate and successfully added it to my server.<br>
 Got it working at first but I had to explicitly write https://nklan.ddns.net and not nklan.ddns.net to access the site (in that case I had the message that I tried to access an https site over an http connection).<br>
 After changing some things (the followng settings) I got it working but only at the server PC. I can not even access it from another device in my LAN, not to mention over the Internet.<br>
