@@ -91,7 +91,7 @@ Posted as a different file in main directory of repository
 
 ###Hosts file
 
-As a final not, my /etc/hosts file
+As a final note, my /etc/hosts file...
 ```
 127.0.0.1       localhost
 127.0.1.1       nklan.ddns.net
