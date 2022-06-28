@@ -9,7 +9,7 @@ After changing some things (the followng settings) I got it working but only at 
 - Username: nkantartzopoulos@gmail.com<br>
 - Password: Dung&Dr@g_89<br><br>
 I have linked my WAN address to nklan.ddns.net<br>
-Because my ISP blocks the 80 port, I use 4444 and redirect it to port 80 using /Port 80 redirect option/.<br>
+Because my ISP blocks the 80 port, I use 4444 and redirect it to port 80 using *Port 80 redirect option*.<br>
 
 ### Router
 **Forward the folowing ports to my PC** (Static IP 192.168.1.5)<br>
