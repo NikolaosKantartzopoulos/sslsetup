@@ -1,7 +1,7 @@
 ### NOIP - DNS and SSL provider
 *Using https://www.noip.com/*<br>
--Username: nkantartzopoulos@gmail.com<br>
--Password: Dung&Dr@g_89<br>
+- Username: nkantartzopoulos@gmail.com<br>
+- Password: Dung&Dr@g_89<br>
 I have linked my WAN address to nklan.ddns.net<br>
 Because my ISP blocks the 80 port, I use 4444 and redirect it to port 80 using Port 80 redirect option.<br>
 
