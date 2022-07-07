@@ -13,9 +13,8 @@ Because my ISP blocks the 80 port, I use 4444 and redirect it to port 80 using *
 
 ### Router
 **Forward the folowing ports to my PC** (Static IP 192.168.1.5)<br>
-WAN 80 Port to LAN 80 Port<br>
+WAN 80 Port to LAN 443 Port<br>
 WAN 443 Port to LAN 443 Port<br>
-WAN 4444 Port to LAN 4444 Port<br>
 
 ### PC Firewall
 **sudo ufw status verbose**
